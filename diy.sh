@@ -3,5 +3,5 @@
 # git clone --depth=1 https://github.com/EOYOHOO/UA2F.git package/UA2F
 # git clone --depth=1 https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
-sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
+git clone --depth=1 https://github.com/kenzok8/openwrt-packages
+git clone --depth=1 https://github.com/kenzok8/small
