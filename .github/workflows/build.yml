@@ -17,7 +17,7 @@ on:
         description: 'ImmortalWrt 仓库的分支 (Branch of ImmortalWrt repo)'
         type: string
         required: true
-        default: 'master'
+        default: 'openwrt-23.05'
       multithreading:
         description: '开启多线程编译 (Enable multithreading build)'
         type: boolean
