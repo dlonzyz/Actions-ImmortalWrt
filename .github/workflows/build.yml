@@ -124,7 +124,7 @@ jobs:
 
 
       - name: 开启 SSH 服务 (Start SSH service)
-        uses: lhotari/action-upterm@main
+        uses: simru-asteria/ssh2actions@main
         with:
           wait-timeout-minutes: 20
 
